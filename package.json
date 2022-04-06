@@ -7,17 +7,20 @@
     "build": "webpack",
     "start": "webpack serve --open",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  }
+  ,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fahdrahali/leaderboard.git"
-  },
+  }
+  ,
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fahdrahali/leaderboard/issues"
-  },
+
+  }
+  ,
   "homepage": "https://github.com/fahdrahali/leaderboard#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
