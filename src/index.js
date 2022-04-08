@@ -1,3 +1,4 @@
+import { addScore, updateList } from '../modules/handleScore.js';
 import { getAllScoresService } from '../modules/scoreServices.js';
 import './style.css';
 
@@ -11,3 +12,5 @@ const render = async () => {
 };
 
 render();
+updateList();
+addScore();

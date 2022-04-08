@@ -39,25 +39,33 @@ h1 {
   width: 100px;
 }
 
-.scores-card-header h2 {
+.add-score h2 {
   font-size: 40px;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 200px;
+  row-gap: 20px;
+  width: 100%;
 }
 
 .form-score {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 300px;
   row-gap: 20px;
   width: 60%;
 }
 
 .form-score input {
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  font-size: 20px;
   width: 100%;
-  height: 30px;
-  padding: 5px;
+  height: 40px;
+  padding: 10px;
 }
 
 .form-score button {

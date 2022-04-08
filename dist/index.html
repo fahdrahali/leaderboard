@@ -14,15 +14,17 @@
         <div class="scores-card">
             <div class="scores-card-header">
               <h2>Recent scores</h2>
-              <button type="button">Refresh</button>
+              <button id="btn-refresh" type="button">Refresh</button>
             </div>
             <ul id="score-list"></ul>
         </div>
-        <div class="form-score">
+        <div class="add-score">
             <h2>Add your score</h2>
-              <input type="text" name="name" id="name" placeholder="Your name" />
-              <input type="number" name="score" id="score" placeholder="Your score">
+            <form class="form-score" method="post" action="/">
+              <input type="text" name="user" id="name" placeholder="Your name" required/>
+              <input type="number" name="score" id="score" placeholder="Your score" required>
               <button type="submit">Submit</button>
+            </form>
         </div>
     </div>
     </main>
