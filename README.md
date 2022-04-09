@@ -25,6 +25,9 @@ To get a local copy up and running follow these simple example steps.
 
 - Link here: [Live](https://fahdrahali.github.io/leaderboard/)
 
+![Screenshot from 2022-04-09 15-56-40](https://user-images.githubusercontent.com/43032318/162579672-1a6a20ed-5fcd-426d-8734-b1af22feb93d.png)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
