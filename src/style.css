@@ -45,9 +45,8 @@ h1 {
   border: 1px solid #64d68a;
   border-radius: 5px;
   background-color: #64d68a;
-  color: #ffffff;
+  color: #fff;
 }
-
 
 .add-score h2 {
   font-size: 40px;
@@ -55,16 +54,16 @@ h1 {
 
 .add-score {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 120px;
-    row-gap: 30px;
-    width: 100%;
-    border: 1px solid #ccc5c5;
-    height: 320px;
-    padding: 20px 0;
-    border-radius: 20px;
-    background-color: #f3f1f1;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 120px;
+  row-gap: 30px;
+  width: 100%;
+  border: 1px solid #ccc5c5;
+  height: 320px;
+  padding: 20px 0;
+  border-radius: 20px;
+  background-color: #f3f1f1;
 }
 
 .scores-card-header h2 {
